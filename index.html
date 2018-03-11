@@ -2,13 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laurean Ray &mdash; Full Stack Developer &amp; Graphics Designer </title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <script src="./lib/particle-js/particles.js"></script>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-</head>
-<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/laureanray.css">
     
+</head>
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+</script>
+<body>
+        <div id="particles-js"></div>
+
+    <div class="test">
+        <div class="container">
+            <nav>
+                <div class="branding">
+                    <img src="./img/brand-white.png" alt="" class="logo">
+                    <h1> Laurean Ray </h1>
+                </div>
+                <button> Contact </button>
+            </nav>
+        </div>
+    </div>
+
+       <footer>
+         
+                    <div class="container">
+                            <p> Laurean Ray &copy; 2018 </p>
+                            <p> Polytechnic University of the Philippines </p>
+                            <p> Computer Engineering</p>
+                    </div>
+               
+        
+       </footer>
+        <div class="background">
+              
+                <div class="d1_parent">
+                    <div class="d1"></div>
+                </div>
+                <div class="d2_parent">
+                        <div class="d2"></div>
+                </div>
+            </div>
+        
+  
 </body>
 </html>

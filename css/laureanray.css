@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i');/* Global */
+@import url('https://fonts.googleapis.com/css?family=Mina:400,700');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    font-family: 'Arimo', sans-serif;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fafafa;
+}
+/* Target */
+.test{
+
+    background: #fafafa;
+}
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .branding{
+        width: 200px;
+        float: left;
+    }
+    .branding .logo{
+        width: 40px;
+        height: 40px;
+        float: left;
+    }
+    .branding h1{
+        margin: 5px 0 0 0;
+        font-weight: 700;
+        font-size: 15px;
+        color: #202020;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        float: right;
+        padding: 0 0 0 12px;
+        border: 0;
+        border-left: 2px solid #a81d1d;
+    }
+    nav{
+        width: 100%;
+        min-height: 50px;
+        padding: 25px 0 25px 0;
+    }
+    nav button{
+        cursor: pointer;
+        float: right;
+        padding: 10px 18px 10px 18px;
+        background: linear-gradient(135deg, #a81d1d, #d30707);
+        color: #fafafa;
+        border: 0;
+        font-family: 'Arimo', sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        transition: all 0.2s ease;
+
+    }
+    nav button:hover{
+        padding: 10px 30px 10px 30px;
+        background: #fafafa;
+        box-shadow: 1px 1px 50px #e7e7e7;
+        color: #d30707;
+        transition: all 0.2s ease;
+    }
+    footer{
+        width: 100%;
+        min-height:1075px;
+        padding: 10px 0 10px 0px;
+        transform: translateY(470px);
+        float: left;
+        z-index: 100;   
+    }   
+    footer p{
+        font-family: 'Arimo', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 2px;
+        color: #e8bfbf; 
+        margin: 0;
+        padding: 0; 
+    }
+
+
+.d1{
+    position: fixed;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(135deg, #a81d1d, #d30707);
+    transform: rotate(10deg);
+}
+.d1_parent{
+    transform: translate(44px);
+}
+
+.d2{
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(135deg, #aeaeae, #fafafa);
+    transform: rotate(-10deg);
+}
+.d2_parent{
+    transform: translate(200px);
+}
+.background{
+    height: 2000px;
+    width: 300vh;
+    position: absolute;
+    z-index: -100;
+    transform: translate(-100px, 550px);   
+}
+
+/*  background: linear-gradient(135deg, #a81d1d, #d30707); */
